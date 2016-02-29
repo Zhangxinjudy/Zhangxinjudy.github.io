@@ -10,7 +10,7 @@ top:120px;
 left:120px;
 position: absolute;	
 font-weight: 600; 
-font-family: 'Roboto Slab', serif;
+font-family: 'Open Sans', sans-serif;
 letter-spacing:1px;
 }
 .subtitle{
@@ -204,25 +204,10 @@ position: absolute;
 z-index: 0;
 }
 
-#fixbackground4{
-top:4150px;
-position: absolute;
-z-index: 0;
-}
-#fixbackground5{
-top:5410px;
-position: absolute;
-z-index: 0;
-}
-#fixbackground6{
-top:6440px;
-position: absolute;
-z-index: 0;
-}
 
 h1{
 font-size: 2em;
-font-family: 'Roboto Slab', serif;
+font-family:  'Open Sans', sans-serif;
 font-weight: 400;
 /* -webkit-font-smoothing: antialiased; */
 }
@@ -363,6 +348,10 @@ font-family: 'Open Sans', sans-serif;
 font-weight: 300;
 color: #4a4a4a;
 line-height:160%;
+}
+
+.black{
+background-color: #080709;
 }
 
 .title_right{
