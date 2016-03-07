@@ -10,7 +10,7 @@ top:140px;
 left:120px;
 position: absolute;	
 font-weight: 600; 
-font-family: 'Roboto Slab', serif;
+font-family: 'Open Sans', sans-serif;
 letter-spacing:1px;
 }
 .subtitle{
@@ -190,7 +190,7 @@ z-index: 0;
 }
 h1{
 font-size: 1.7em;
-font-family: 'Roboto Slab', serif;
+font-family: 'Open Sans', sans-serif;
 line-height: 140%;
 }
 .title1{
