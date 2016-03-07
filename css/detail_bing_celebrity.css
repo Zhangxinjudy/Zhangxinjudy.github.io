@@ -81,6 +81,14 @@ margin-top:0px;
 z-index: 2;	
 }
 
+#storyboard1{
+position: absolute;
+right:0px;
+margin-top:0px;
+z-index: 2;	
+}
+
+
 #moving{
 /* margin-top:260px; */
 height: 100px;
@@ -135,14 +143,15 @@ z-index: 5;
 }
 
 #largepicture{
+margin-top: 0px;
 position: absolute;
-right:0px;
+right:-120px;
 }
 
 #twophones{
 position: absolute;
-margin-top:40px;
-left:0px;
+margin-top:0px;
+left:-50px;
 z-index: 2;	
 }
 
@@ -184,7 +193,12 @@ position: absolute;
 z-index: 0;
 }
 #fixbackground6{
-top:6670px;
+top:6540px;
+position: absolute;
+z-index: 0;
+}
+#fixbackground7{
+top:7800px;
 position: absolute;
 z-index: 0;
 }
@@ -195,6 +209,7 @@ line-height: 140%;
 }
 .title1{
 top:160px;
+left:-30px;
 position: relative;
 }
 .title2{
@@ -209,6 +224,7 @@ font-size: 1em;
 font-family: sans-serif;
 }
 .content1{
+
 top:200px;
 position: relative;
 width:760px;	
@@ -223,7 +239,8 @@ line-height:160%;
 }
 .content2{
 top:200px;
-width:250px;	
+left:-30px;
+width:200px;	
 padding: 0px;
 position: relative;
 float: left;
@@ -322,13 +339,13 @@ width: 300px;
 top:190px;
 position: relative;
 float: left;
-padding-left: 660px;
+padding-left: 700px;
 z-index: 3;
 }
 .content_right{
 top:220px;
 width:300px;	
-padding-left: 660px;
+padding-left: 700px;
 position: relative;
 float: left;
 z-index: 3;

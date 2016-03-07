@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html class="skrollr skrollr-desktop"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>针对bing名人搜索的优化</title>
+<link type="text/css" rel="stylesheet" href="./css/detail_bing_celebrity.css">
+
+<script src="./js/jquery-1.10.2.min.js"></script>
+<link href="./css/fotorama.css" rel="stylesheet">
+<script type="text/javascript" src="./js/fotorama.js"></script><style type="text/css"></style>
+<style>
+  .hide{
+    display:none;
+  }
+  .showprocess{
+    cursor:pointer;
+  }
+  .showprocess:hover{
+    opacity:0.7;	
+  }  
+</style>
+
+</head>
+
+<body style="height: 7440px;">    
+  <!-- ************  Top  ************** -->  
+  <div class="pagetop">
+    <div id="topimg">
+      <img class="titleimage" src="./img_bc/pagetop.jpg" height="500px">
+    </div>
+  </div>
+
+  <!-- ************  MAinbody  ************** -->
+  <div id="mainbody">
+
+   <div class="horizontal500">
+    <div id="probelmstatement">
+      <h1 class="title1 center">提升ios系统中bing对搜索名人事件或新闻时的用户体验</h1>
+      <p class="content1 center">垂直搜索的主要特点是“专、精、深”，我希望将“名人搜索”作为一种垂直分类，对名人的信息和新闻等进行整合，把信息进行分析处理之后返还给用户。<br><br>1.将多种信息数据重新整理排版，让用户快速的找到相应内容；<br>2.针对名人的新闻事件和相关报道进行整理和关键词提取；<br>3.用户搜索的内容可能和真正需求的内容有偏差，引导用户搜索。</p>
+    </div>
+  </div>
+
+  <div class="horizontal630">
+    <h1 class="title2 center">设计过程</h1>    
+    <p class="content3 center">以下是我的设计过程，这次优化并没有完成设计评估内容。</p>
+    <div id="taskflow">
+     <img src="./img_bc/taskflow.jpg" width="840px" alt="preview book content">
+   </div>
+ </div>
+
+ <div class="horizontal630 grey">
+   <h1 class="title1">界面分析</h1>
+   <p class="content2">通过分析现有的页面，我发现了一些问题：<br><br>1.搜索结果页信息排布是否符合大部分用户搜索的心理模型。<br>2.资讯内容重复，排版方式造成视觉差，阅读不畅。<br>3.“相关搜索”和“推荐搜索”并未在资讯内容上有帮助。</p>
+   <div id="storyboard">
+     <img src="./img_bc/anaysis.jpg" width="900px" alt="preview book content">
+   </div>
+ </div>
+
+<div class="horizontal630">
+</p><div id="largepicture">
+<img src="./img_bc/research.jpg" height="600px" style="margin:0 auto;"alt="preview book content">
+</div>
+</div>
+
+<div class="horizontal630 grey">
+  <h1 class="title_right">竞品分析</h1>
+  <p class="content_right">关于这次竞品，主要分析了百度、谷歌以及搜狗的针对于名人的搜索结果。<br>其中搜狗对名人搜索进行了再设计，信息排布更清晰，这种方式值得学习。</p><p>
+</p><div id="twophones">
+<img src="./img_bc/competitor.jpg" height="600px" alt="preview book content">
+</div>
+</div>
+
+<div class="horizontal630">
+  <h1 class="title_right">用户模型</h1>
+  <p class="content_right">在这个项目中，我将用户设定为一位23岁的女大学生。主要原因有三点：<br>1.相对于男生，女生更关注八卦新闻，对明星更加热衷。<br>2.20岁左右的女学生对新事物的认同度和接受度更高。<br>3.经过调研，谈论明星这种场景在校园这个环境中非常容易发生。<br>因此，我选择女大学生作为用户模型。</p><p>
+</p><div id="twophones">
+<img src="./img_bc/persona.jpg" height="600px" alt="preview book content">
+</div>
+</div>
+
+ <div class="horizontal630 grey">
+   <h1 class="title1">使用场景与分析</h1>
+   <p class="content2">如果仅仅满足用户的搜索内容，对于搜索来说，是不够的。<br>深入了解用户，提供给他们搜索行为背后真正所需要的信息。</p>
+   <div id="storyboard">
+     <img src="./img_bc/fenxi.jpg" width="800px" alt="preview book content">
+   </div>
+ </div>
+
+<div class="horizontal630">
+  <h1 class="title1">不同的使用情境</h1>
+  <p class="content2">经过调研，了解到用户进行名人搜索有两种主要的情况：<br>1.想要了解名人讯息。<br>2.爆出了他的事件，想要了解新闻事件。<br><br>前者的需求要远大于后者，但是后者会导致搜索热点，也应该被考虑。<br>因此我认为是否要突出资讯内容，需要分情况处理。</p><p>
+</p><div id="storyboard1">        
+<img src="./img_bc/qingjing.jpg" height="550px" alt="preview book content">
+</div>
+</div>
+
+   <div class="horizontal500">
+    <div id="probelmstatement">
+      <h1 class="title1 center">想法与解决方式</h1>
+      <p class="content1 center">
+        信息整合分类：将“名人搜索”作为一种垂直搜索，名人信息和资讯进行整合，分析处理之后返还给用户。<br>
+        两种不同的情境搜索提供不同的内容：
+        没有曝出事件情境下的名人搜索：将多种信息数据重新整理排版，突出名人信息和经历，让用户快速找到所需内容；曝出名人事件：针对名人的新闻事件和相关报道进行整理和关键词提取；<br>
+        最后，用户搜索的内容可能和真正需求的内容有偏差，可以引导用户搜索。</p>
+    </div>
+  </div>
+
+<div class="horizontal630">
+  <h1 class="title_right">低保真原型的设计1</h1>
+  <p class="content_right">在这个项目中，我将用户设定为一位23岁的女大学生。主要原因有三点：1.相对于男生，女生为了了解八卦新闻，搜索明星更加热衷。<br>2.20岁左右的女学生对于新事物的认同度和接受度更高，更容易上网搜索。<br>3.触发搜索的事件，经过调研，更多的情况是在与别人交流时，女大学生在校园这个环境中更容易讨论一些明星的事情。<br>因此，我选择女大学生作为我的用户模型</p><p>
+</p><div id="twophones">
+<img src="./img_bc/preview.png" height="600px" alt="preview book content">
+</div>
+</div>
+
+ <div class="horizontal630 grey">
+   <h1 class="title1">低保真原型的设计2</h1>
+   <p class="content2">针对bing搜素的风格,希望将整个搜索内容更加清晰和简单化,使用扁平化的设计风格.</p>
+   <div id="storyboard">
+     <img src="./img_bc/anaysis.jpg" width="900px" alt="preview book content">
+   </div>
+ </div>
+
+ <div class="horizontal630">
+  <h1 class="title_right">ui设计1</h1>
+  <p class="content_right">在这个项目中，我将用户设定为一位23岁的女大学生。主要原因有三点：1.相对于男生，女生为了了解八卦新闻，搜索明星更加热衷。<br>2.20岁左右的女学生对于新事物的认同度和接受度更高，更容易上网搜索。<br>3.触发搜索的事件，经过调研，更多的情况是在与别人交流时，女大学生在校园这个环境中更容易讨论一些明星的事情。<br>因此，我选择女大学生作为我的用户模型</p><p>
+</p><div id="twophones">
+<img src="./img_bc/preview.png" height="600px" alt="preview book content">
+</div>
+</div>
+
+ <div class="horizontal630 grey">
+   <h1 class="title1">ui设计2</h1>
+   <p class="content2">针对bing搜素的风格,希望将整个搜索内容更加清晰和简单化,使用扁平化的设计风格.</p>
+   <div id="storyboard">
+     <img src="./img_bc/anaysis.jpg" width="900px" alt="preview book content">
+   </div>
+ </div>
+
+<!-- ************  Footer  ************** -->     
+     <footer class="colophon">
+       <figure id="backhome" width="60" height="60">
+         <a href="http://judyzhangxin.com">
+         <img src="./img_fl/backtotop.png" width="60">
+         </a><a>
+       </a></figure><a> 
+ <p class="colophon_text">自己尝试对bing名人搜索做的一个小优化<br>用时1天，第一次做这种优化，做的不好的地方希望大神可以给我指出来！</p><p>
+</p><p id="backtotop" class="scrollup">回到顶部↑</p>
+     </a></footer><a>
+     
+</a></div><a> <!-- close mainbody -->
+
+<!-- ************  BackgroundColor  ************** -->
+<div id="fixbackground1" class="horizontal500"></div>
+<div id="fixbackground2" class="horizontal630 grey"></div>
+<div id="fixbackground3" class="horizontal630 grey"></div>
+<div id="fixbackground4" class="horizontal630 grey"></div>
+<div id="fixbackground5" class="horizontal500 grey"></div>
+<div id="fixbackground6" class="horizontal630 grey"></div>
+<div id="fixbackground7" class="horizontal630 grey"></div>
+<div class="horizontal630 hide toggle" style="top:7300px;position:absolute;background-color:#2d2e31"></div>
+
+<!-- ************  js  ************** -->
+<script type="text/javascript" src="./js/skrollr.min.js"></script>
+<script type="text/javascript">
+	var s = skrollr.init();
+</script>
+<script>
+  $(document).ready(function () {
+    $('.scrollup').click(function () {
+      $("html, body").animate({
+        scrollTop: 0
+      }, 1000);
+      return false;
+    });
+  });
+</script>
+<script>
+  $(document).ready(function() {
+    $('.showprocess').click(function() {
+      $('.toggle').slideToggle("slow");
+    });
+  });
+</script>
+
+
+
+
+</a></body></html>
