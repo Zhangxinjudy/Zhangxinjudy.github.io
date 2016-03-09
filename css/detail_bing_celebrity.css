@@ -88,7 +88,12 @@ margin-top:0px;
 z-index: 2;	
 }
 
-
+#storyboard2{
+position: absolute;
+right:0px;
+margin-top:0px;
+z-index: 2;	
+}
 #moving{
 /* margin-top:260px; */
 height: 100px;
@@ -339,13 +344,13 @@ width: 300px;
 top:190px;
 position: relative;
 float: left;
-padding-left: 700px;
+padding-left: 750px;
 z-index: 3;
 }
 .content_right{
 top:220px;
 width:300px;	
-padding-left: 700px;
+padding-left: 750px;
 position: relative;
 float: left;
 z-index: 3;
