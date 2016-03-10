@@ -57,6 +57,14 @@ margin:0px;
 background-color: #f5f4f3;
 }
 
+.horizontal490{
+width:100%;
+height:500px;
+padding:0px;
+margin:0px;
+background-color: #fff;
+}
+
 .horizontal630{
 width:100%;
 height:630px;
@@ -174,17 +182,17 @@ z-index: 0;
 }
 
 #fixbackground4{
-top:4150px;
+top:4020px;
 position: absolute;
 z-index: 0;
 }
 #fixbackground5{
-top:5410px;
+top:5260px;
 position: absolute;
 z-index: 0;
 }
 #fixbackground6{
-top:6670px;
+top:6540px;
 position: absolute;
 z-index: 0;
 }
