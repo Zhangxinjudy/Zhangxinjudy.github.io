@@ -1,3 +1,4 @@
+
 html {
 	background-color: #F8F8F8;
 }
@@ -43,6 +44,10 @@ p {
 	font-size: 1.1em;
 	font-weight: 200;
 	line-height: 1.7em;
+}
+
+.white{
+	color: #fff;
 }
 
 
@@ -95,7 +100,7 @@ a:hover, a:active, a:focus {
 
 .footContent {
 	position: relative;
-	margin-top: 100px;
+	margin-top: 760px;
 	margin-left: auto;
 	margin-right: auto;
 	width: 1024px;
@@ -117,8 +122,41 @@ a:hover, a:active, a:focus {
 	width: 1024px;
 }
 
-.coverImage:hover {
-	opacity: .8;
+
+.coverDiv {
+	position: absolute; 
+	left: 0px; 
+	top: 0px;
+	opacity: 0;
+	cursor: pointer;
+	-webkit-transition: opacity .3s ease-in-out;
+	-moz-transition: opacity .3s ease-in-out;
+	-o-transition: opacity .3s ease-in-out;
+	-ms-transition: opacity .3s ease-in-out;
+	transition: opacity .3s ease-in-out;
+}
+.coverDiv:hover {
+
+	opacity: 1;
+	-webkit-transition: opacity .3s ease-in-out;
+	-moz-transition: opacity .3s ease-in-out;
+	-o-transition: opacity .3s ease-in-out;
+	-ms-transition: opacity .3s ease-in-out;
+	transition: opacity .3s ease-in-out;
+}
+
+.descDiv{
+	position: absolute; 
+	left: 0px; 
+	top:0px;
+	height:168px;
+	width:217px;
+
+}
+
+.descDiv p{
+	text-align: center;
+	opacity:1.0;
 }
 
 .footIcon:hover {
