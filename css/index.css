@@ -46,6 +46,12 @@ p {
 	line-height: 1.7em;
 }
 
+.big {
+	font-size: 1.4em;
+	font-weight: 300;
+	line-height: 1.7em;
+}
+
 .white{
 	color: #fff;
 }
